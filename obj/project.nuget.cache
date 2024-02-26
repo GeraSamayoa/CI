@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jmarGzoD2CBEh2JB4g720/Rc5A+pRRlVv4nP22xzBc/KK0jCmFPsLguhK1gFTHq7n5uHl0fmqATgr/GFu1whw==",
+  "dgSpecHash": "JHfr+KxU1qjq01wlLXHACzQdGOfCopJUR1PVGUDC2mCeJbN7S5qZjuqDHKJh5OX3h6soaiIk2wMkoh0CRxoOlg==",
   "success": true,
-  "projectFilePath": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\BlazorCI.csproj",
+  "projectFilePath": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\BlazorCI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\geras\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.2\\microsoft.aspnetcore.authorization.8.0.2.nupkg.sha512",
     "C:\\Users\\geras\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.2\\microsoft.aspnetcore.components.8.0.2.nupkg.sha512",

@@ -1,76 +1,76 @@
 {
   "Files": [
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\obj\\Debug\\net8.0\\compressed\\7yq1it7ppn.gz",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\obj\\Debug\\net8.0\\compressed\\7yq1it7ppn.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorPruebas.styles.css",
-      "PackagePath": "staticwebassets\\BlazorPruebas.styles.css"
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorCI.styles.css",
+      "PackagePath": "staticwebassets\\BlazorCI.styles.css"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\obj\\Debug\\net8.0\\service-worker-assets.js",
       "PackagePath": "staticwebassets\\service-worker-assets.js"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\wwwroot\\css\\app.css",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\wwwroot\\favicon.png",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\wwwroot\\icon-192.png",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\wwwroot\\icon-512.png",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\wwwroot\\icon-512.png",
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\wwwroot\\index.html",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\wwwroot\\manifest.webmanifest",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\wwwroot\\manifest.webmanifest",
       "PackagePath": "staticwebassets\\manifest.webmanifest"
     },
     {
-      "Id": "D:\\Universidad\\Semestre 5\\ProgramacionIII\\BlazorPruebas\\wwwroot\\sample-data\\weather.json",
+      "Id": "D:\\Cursos\\Udemy\\Desarrollo Web\\Repositorios\\CI\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorPruebas.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorCI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorPruebas.props",
-      "PackagePath": "build\\BlazorPruebas.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorCI.props",
+      "PackagePath": "build\\BlazorCI.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorPruebas.props",
-      "PackagePath": "buildMultiTargeting\\BlazorPruebas.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorCI.props",
+      "PackagePath": "buildMultiTargeting\\BlazorCI.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorPruebas.props",
-      "PackagePath": "buildTransitive\\BlazorPruebas.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorCI.props",
+      "PackagePath": "buildTransitive\\BlazorCI.props"
     }
   ],
   "ElementsToRemove": []

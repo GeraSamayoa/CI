@@ -13,39 +13,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorCI
 build_property.RootNamespace = BlazorCI
-build_property.ProjectDir = D:\Universidad\Semestre 5\ProgramacionIII\BlazorPruebas\
+build_property.ProjectDir = D:\Cursos\Udemy\Desarrollo Web\Repositorios\CI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Universidad\Semestre 5\ProgramacionIII\BlazorPruebas
+build_property.MSBuildProjectDirectory = D:\Cursos\Udemy\Desarrollo Web\Repositorios\CI
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Universidad/Semestre 5/ProgramacionIII/BlazorPruebas/App.razor]
+[D:/Cursos/Udemy/Desarrollo Web/Repositorios/CI/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Semestre 5/ProgramacionIII/BlazorPruebas/Pages/Counter.razor]
+[D:/Cursos/Udemy/Desarrollo Web/Repositorios/CI/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Semestre 5/ProgramacionIII/BlazorPruebas/Pages/Home.razor]
+[D:/Cursos/Udemy/Desarrollo Web/Repositorios/CI/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Semestre 5/ProgramacionIII/BlazorPruebas/Pages/Weather.razor]
+[D:/Cursos/Udemy/Desarrollo Web/Repositorios/CI/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Semestre 5/ProgramacionIII/BlazorPruebas/_Imports.razor]
+[D:/Cursos/Udemy/Desarrollo Web/Repositorios/CI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Universidad/Semestre 5/ProgramacionIII/BlazorPruebas/Layout/MainLayout.razor]
+[D:/Cursos/Udemy/Desarrollo Web/Repositorios/CI/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-k9st824sw5
 
-[D:/Universidad/Semestre 5/ProgramacionIII/BlazorPruebas/Layout/NavMenu.razor]
+[D:/Cursos/Udemy/Desarrollo Web/Repositorios/CI/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-vu2bts58j3
