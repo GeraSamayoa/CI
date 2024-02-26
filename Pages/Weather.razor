@@ -1,0 +1,55 @@
+﻿@page "/weather"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Interes Compuesto</h1>
+
+<input type="number" @bind="capitalInicial" placeholder="Ingrese Capital" />
+<input type="number" @bind="tasaInteres" placeholder="Ingrese Tasa de Interes" />
+<input type="number" @bind="periodo" placeholder="Ingrese Periodo" />
+<button @onclick="Retorno">Calcular</button>
+
+@if (resultado != null)
+{
+	<p>El monto final es: @resultado</p>
+}
+
+<table>
+	<tr>
+		<th>Capital Inicial</th>
+		<th>Tasa de Interes</th>
+		<th>Periodo</th>
+	</tr>
+	<tr>
+		<td>@capitalInicial</td>
+		<td>@tasaInteres</td>
+		<td>@periodo</td>
+
+	</tr>
+</table>
+
+@code {
+		double capitalInicial;
+		double tasaInteres;
+		double periodo;
+		double? resultado;
+		int contador = 1;
+
+		void Retorno()
+		{
+			resultado = CalcularInteres(capitalInicial, tasaInteres, periodo);
+		}
+
+		double CalcularInteres(double capitalInicial, double tasaInteres, double periodo)
+		{
+			if (periodo = 0)
+{
+				return capitalInicial;
+			}
+			else if (periodo =1)
+{
+				return capitalInicial+((capitalInicial*tasaInteres)/100);
+			}
+			else if (periodo =2)
+		}
+
