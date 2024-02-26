@@ -1,55 +1,57 @@
 ﻿@page "/weather"
+@inject HttpClient Http
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Weather</PageTitle>
 
-<h1>Interes Compuesto</h1>
+<h1>Weather</h1>
 
-<input type="number" @bind="capitalInicial" placeholder="Ingrese Capital" />
-<input type="number" @bind="tasaInteres" placeholder="Ingrese Tasa de Interes" />
-<input type="number" @bind="periodo" placeholder="Ingrese Periodo" />
-<button @onclick="Retorno">Calcular</button>
+<p>This component demonstrates fetching data from the server.</p>
 
-@if (resultado != null)
+@if (forecasts == null)
 {
-	<p>El monto final es: @resultado</p>
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 
-<table>
-	<tr>
-		<th>Capital Inicial</th>
-		<th>Tasa de Interes</th>
-		<th>Periodo</th>
-	</tr>
-	<tr>
-		<td>@capitalInicial</td>
-		<td>@tasaInteres</td>
-		<td>@periodo</td>
-
-	</tr>
-</table>
-
 @code {
-		double capitalInicial;
-		double tasaInteres;
-		double periodo;
-		double? resultado;
-		int contador = 1;
+    private WeatherForecast[]? forecasts;
 
-		void Retorno()
-		{
-			resultado = CalcularInteres(capitalInicial, tasaInteres, periodo);
-		}
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+    }
 
-		double CalcularInteres(double capitalInicial, double tasaInteres, double periodo)
-		{
-			if (periodo = 0)
-{
-				return capitalInicial;
-			}
-			else if (periodo =1)
-{
-				return capitalInicial+((capitalInicial*tasaInteres)/100);
-			}
-			else if (periodo =2)
-		}
+    public class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
 
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+}
